@@ -16,7 +16,14 @@ RUN \
 # Update and get dependencies
     apt-get update && \
     apt-get install -y \
-      tzdata \
+			vim-tiny \
+			coreutils \
+			iputils-ping \
+			iproute2 \
+			procps \
+			net-tools \
+			dnsutils \
+			tzdata \
       curl \
       xmlstarlet \
       uuid-runtime \
